@@ -17,7 +17,7 @@ import {
 } from "../api/chats/useChats";
 
 function Layout() {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [seletedModel, setSeletedModel] = useState();
   const [consationId, setConversationId] = useState();
   const [currentChats, setCurrentChat] = useState("chatCompletion");
