@@ -106,7 +106,7 @@ export default function ImageToText() {
                   <Markdown>{msg.content}</Markdown>
                   <img
                     src={getImageSrc(msg.image)}
-                    className="w-full h-[500px]"
+                    className="w-full h-[300px]"
                   />
                 </div>
               ) : (
